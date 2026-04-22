@@ -1,6 +1,6 @@
 import { PostgrestError } from '@supabase/supabase-js';
 import { createClient } from '../lib/supabase';
-import { UserProfile } from '../lib/types';
+import { Database, UserProfile } from '../lib/types';
 
 export const userService = {
   async fetchProfile(userId: string): Promise<{ data: UserProfile | null, error: PostgrestError | string | null }> {
@@ -91,9 +91,18 @@ export const userService = {
     
     if (!user) return { error: 'Not authenticated' };
 
+    // Filter out UI-only fields that aren't in the database
+    const { 
+      posts_count, 
+      followers_count, 
+      following_count, 
+      is_following,
+      ...dbUpdates 
+    } = updates;
+
     const { data, error } = await supabase
       .from('users')
-      .update(updates as Record<string, unknown>)
+      .update(dbUpdates as Database['public']['Tables']['users']['Update'])
       .eq('id', user.id)
       .select()
       .single();
