@@ -41,24 +41,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> **To add screenshots:** Take a screenshot of your live app → upload to your repo under `/public/screenshots/` → the images below will appear automatically.
-
-<!--
-  HOW TO ADD SCREENSHOTS:
-  1. Run your app at campus-hub-gules.vercel.app
-  2. Take screenshots of: Feed, Profile, Login, Mobile view
-  3. Save them inside your repo at: /public/screenshots/
-  4. Replace the placeholder links below with your actual file paths
-  5. Example: ![Feed](./public/screenshots/feed.png)
--->
-
-<div align="center">
-<table>
-<tr>
-<td align="center" width="50%">
-
 **🏠 Social Feed**
 
 [![Feed Screenshot](https://via.placeholder.com/500x320/0d1b3e/22D3EE?text=📸+Add+Feed+Screenshot)](https://campus-hub-gules.vercel.app)
