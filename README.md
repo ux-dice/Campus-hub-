@@ -41,25 +41,6 @@
 
 ---
 
-**🏠 Social Feed**
-
-[![Feed Screenshot](https://via.placeholder.com/500x320/0d1b3e/22D3EE?text=📸+Add+Feed+Screenshot)](https://campus-hub-gules.vercel.app)
-
-*Replace this with:* `![Feed](./public/screenshots/feed.png)`
-
-</td>
-<td align="center" width="50%">
-
-**🧑‍🎓 User Profile**
-
-[![Profile Screenshot](https://via.placeholder.com/500x320/0d1b3e/22D3EE?text=📸+Add+Profile+Screenshot)](https://campus-hub-gules.vercel.app)
-
-*Replace this with:* `![Profile](./public/screenshots/profile.png)`
-
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
 
 **🔐 Auth / Login**
 
