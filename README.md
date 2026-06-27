@@ -41,31 +41,6 @@
 
 ---
 
-
-**🔐 Auth / Login**
-
-[![Login Screenshot](https://via.placeholder.com/500x320/0d1b3e/22D3EE?text=📸+Add+Login+Screenshot)](https://campus-hub-gules.vercel.app)
-
-*Replace this with:* `![Login](./public/screenshots/login.png)`
-
-</td>
-<td align="center" width="50%">
-
-**📱 Mobile View**
-
-[![Mobile Screenshot](https://via.placeholder.com/500x320/0d1b3e/22D3EE?text=📸+Add+Mobile+Screenshot)](https://campus-hub-gules.vercel.app)
-
-*Replace this with:* `![Mobile](./public/screenshots/mobile.png)`
-
-</td>
-</tr>
-</table>
-</div>
-
-> 💡 **Quick tip:** Use [screely.com](https://screely.com) or [shots.so](https://shots.so) to turn plain screenshots into beautiful mockups for free.
-
----
-
 ## ✨ Features
 
 <table>
